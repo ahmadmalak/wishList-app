@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "545965851656",
+    "project_id": "wishlisttracker-d9d44",
+    "storage_bucket": "wishlisttracker-d9d44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545965851656:android:f42edd972d671b011c3dbd",
+        "android_client_info": {
+          "package_name": "com.example.wishlist_tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545965851656-qt0lhn74kg5877o5hlond4e1atjp7dbp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwgOlx5SPk9Fme28-J75sxlrlSpKyPhqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545965851656-qt0lhn74kg5877o5hlond4e1atjp7dbp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "545965851656-lekr4duifnd1toahfnm1178i6uoffghu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.testApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
