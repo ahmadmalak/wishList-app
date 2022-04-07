@@ -55,7 +55,7 @@ class _AddWishListScreenState extends State<AddWishListScreen> {
                   height: 4.h,
                   width: 80.w,
                   decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(50),
+                      borderRadius: BorderRadius.circular(50.r),
                       color: Colors.grey),
                 ),
               ),

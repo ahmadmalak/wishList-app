@@ -40,7 +40,7 @@ class _WishListScreenState extends State<WishListScreen> {
                   showModalBottomSheet(
                     isScrollControlled: true,
                     shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(25.0),
+                      borderRadius: BorderRadius.only( topRight:Radius.circular(25.r),topLeft:Radius.circular(25.r) ),
                     ),
                     context: context,
                     builder: (context) {
@@ -63,8 +63,8 @@ class _WishListScreenState extends State<WishListScreen> {
                 if (!snapshot.hasData) {
                   return Center(
                       child: SizedBox(
-                          height: 20.h,
-                          width: 20.w,
+                          height: 25.h,
+                          width: 25.w,
                           child: const CircularProgressIndicator()));
                 } else {
                   List<DocumentSnapshot> docs = snapshot.data.docs;
